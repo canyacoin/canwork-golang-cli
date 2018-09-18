@@ -1,0 +1,18 @@
+desc: Test runner for canwork-cli. Leave the commented examples so when you develop a sub command you have an example to work with
+triggers:
+- name: ""
+  pattens:
+  - '**/*.go'
+  - '**/*.yml'
+  env:
+    DEBUG: "1"
+  cmd: go build && ./canwork-cli login --keyFile ~/tooling/keys/canwork/can-work-cam-firebase.json --email cam.asoftware@gmail.com --verbose
+  # cmd: go build && ./canwork-cli login
+  shell: true
+  delay: 100ms
+  stop_timeout: 500ms
+  signal: KILL
+  kill_signal: ""
+watch_paths:
+- .
+watch_depth: 0
