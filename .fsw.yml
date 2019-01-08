@@ -6,7 +6,8 @@ triggers:
   - '**/*.yml'
   env:
     DEBUG: "1"
-  cmd: go build && ./canwork-cli login --keyFile ~/tooling/keys/canwork/can-work-cam-firebase.json --email cam.asoftware@gmail.com --verbose
+  # cmd: go build && ./canwork-cli login --keyFile ~/tooling/keys/canwork/can-work-cam-firebase.json --email cam.asoftware@gmail.com --verbose
+  cmd: go build -o canwork-cli && ./canwork-cli jobs --jobID="a584fa26-2647-6e5a-8871-a6ab89974f05" --keyFile ~/tooling/keys/canwork/can-work-production.json
   # cmd: go build && ./canwork-cli login
   shell: true
   delay: 100ms

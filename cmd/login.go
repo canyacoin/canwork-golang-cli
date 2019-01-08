@@ -7,12 +7,6 @@ import (
 	"github.com/spf13/cobra"
 )
 
-var (
-	KeyFile string
-	Email   string
-	Verbose bool
-)
-
 // loginCmd represents the login command
 var loginCmd = &cobra.Command{
 	Use:   "login",

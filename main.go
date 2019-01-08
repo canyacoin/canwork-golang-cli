@@ -2,7 +2,7 @@
 
 package main
 
-import "gitlab.com/canya-com/canwork-cli/cmd"
+import "gitlab.com/canya-com/canwork/golang-cli/cmd"
 
 func main() {
 	cmd.Execute()

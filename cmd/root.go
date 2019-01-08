@@ -22,6 +22,10 @@ var (
 	fireBase  *auth.Client
 	cfgFile   string
 	ctx       = context.Background()
+	KeyFile   string
+	Email     string
+
+	Verbose bool
 )
 
 // rootCmd represents the base command when called without any subcommands
