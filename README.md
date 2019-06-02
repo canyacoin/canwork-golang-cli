@@ -11,7 +11,7 @@
 A set of utility functions designed to improve the quality of life of developers and support technicians alike.
 
 ```
-go get gitlab.com/canya-com/canwork-cli
+go get gitlab.com/canyacoin/canwork/golang-cli
 ```
 
 ## Usage examples
