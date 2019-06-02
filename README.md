@@ -1,3 +1,11 @@
+****
+
+> **Mirror**
+> This repo mirrors from Gitlab to Github. Please commit to the Gitlab repo:
+> https://gitlab.com/canyacoin/canwork/golang-cli
+
+****
+
 # canwork-cli
 
 A set of utility functions designed to improve the quality of life of developers and support technicians alike.
